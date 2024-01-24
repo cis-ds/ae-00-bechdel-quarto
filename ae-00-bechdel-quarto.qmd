@@ -2,12 +2,11 @@
 title: "Bechdel"
 author: "Your name"
 format: html
-editor: visual
 ---
 
 In this mini analysis we work with the data used in the FiveThirtyEight story titled ["The Dollar-And-Cents Case Against Hollywood's Exclusion of Women"](https://fivethirtyeight.com/features/the-dollar-and-cents-case-against-hollywoods-exclusion-of-women/). Your task is to fill in the blanks denoted by `___`.
 
-## Data and packages
+# Data and packages
 
 We start with loading the packages we'll use.
 
@@ -39,7 +38,7 @@ The financial variables we'll focus on are the following:
 
 And we'll also use the `binary` and `clean_test` variables for **grouping**.
 
-## Analysis
+# Analysis
 
 Let's take a look at how median budget and gross vary by whether the movie passed the Bechdel test, which is stored in the `binary` variable.
 
